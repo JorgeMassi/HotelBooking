@@ -1,0 +1,57 @@
+//TODO
+
+Corpo Santo Hotel 5* - corposantohotel.com
+
+- Domain = Model
+		- class 
+		 -	rooms
+			-- classic room
+			-- superior room
+			-- premium room
+			-- superior deluxe room
+			-- superior family room
+		-suite
+			-- suite junior
+			-- prestige suite
+			-- family junior suite
+		- add features
+
+		- entity
+
+- Application = Service
+		- interface 
+		- service
+		- generic
+
+
+- Infrastructures = Repository
+	data:	
+		- interface
+		- repository
+		- generic
+		- migrations
+	IoC ( inversion of control):
+		- IoC class
+
+
+- Presentation = frontend (angular)
+	- frontend
+		angular VScode
+		:to create on cmd of windows
+			- Get-ExecutionPolicy -List
+			- Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+			- npm install -g @angular/cli
+			- ng version
+			- ng new (name angular project)
+			- cd angular project
+			- ng serve
+			- ng install bootstrap
+			- ng generate component ( name of component)
+
+
+
+- Service = web API
+		- API
+
+
+
